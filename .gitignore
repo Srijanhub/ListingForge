@@ -1,0 +1,17 @@
+# Dependencies (Should NOT be tracked by git)
+node_modules/
+
+# Environment secrets
+.env
+
+# Uploads directory (keep empty directory)
+uploads/*
+!uploads/.gitkeep
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
